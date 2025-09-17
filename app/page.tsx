@@ -1,0 +1,19 @@
+import { Hero } from '@/components/Hero';
+import { FeaturedProducts } from '@/components/FeaturedProducts';
+import { CategoryShowcase } from '@/components/CategoryShowcase';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <Hero />
+        <FeaturedProducts />
+        <CategoryShowcase />
+      </main>
+      <Footer />
+    </div>
+  );
+}
